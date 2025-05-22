@@ -32,7 +32,9 @@ Permet afegir, eliminar i llistar llibres i usuaris, així com gestionar préste
     -Executa el programa: 
         python biblioteca.py
     -Segueix el menú per gestionar la biblioteca.
-
+    -Els usuaris son:
+     -43434343L---popo
+     -21212121A ---asas
 ### Base de dades SQLite3
 El programa fa servir una base de dades anomenada biblioteca.db amb dues taules principals:
 
@@ -82,5 +84,5 @@ Quan executes el programa, veuràs aquest menú:
     -Permetre exportar i importar dades a CSV o JSON.
 
 ### Crèdits
-Creat per [Adrià Ramírez], 2025.
+Creat per Adrià Ramírez, 2025.
 @aramirezs-source
