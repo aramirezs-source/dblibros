@@ -86,3 +86,4 @@ Quan executes el programa, veuràs aquest menú:
 ### Crèdits
 Creat per Adrià Ramírez, 2025.
 @aramirezs-source
+https://github.com/aramirezs-source/dblibros
