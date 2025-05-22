@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XMI verified="false" timestamp="2025-04-27T12:04:33" xmi.version="1.2" xmlns:UML="http://schema.omg.org/spec/UML/1.4">
+ <XMI.header>
+  <XMI.documentation>
+   <XMI.exporter>umbrello uml modeller http://umbrello.kde.org</XMI.exporter>
+   <XMI.exporterVersion>1.6.17</XMI.exporterVersion>
+   <XMI.exporterEncoding>UnicodeUTF8</XMI.exporterEncoding>
+  </XMI.documentation>
+  <XMI.metamodel xmi.name="UML" href="UML.xml" xmi.version="1.4"/>
+ </XMI.header>
+ <XMI.content>
+  <UML:Model isRoot="false" isAbstract="false" xmi.id="m1" name="Model UML" isSpecification="false" isLeaf="false">
+   <UML:Namespace.ownedElement>
+    <UML:Stereotype visibility="public" isRoot="false" isAbstract="false" xmi.id="folder" name="folder" isSpecification="false" namespace="m1" isLeaf="false"/>
+    <UML:Stereotype visibility="public" isRoot="false" isAbstract="false" xmi.id="constructor" name="constructor" isSpecification="false" namespace="m1" isLeaf="false"/>
+    <UML:Model visibility="public" isRoot="false" isAbstract="false" xmi.id="Logical_View" name="Logical View" isSpecification="false" namespace="m1" isLeaf="false">
+     <UML:Namespace.ownedElement>
+      <UML:Package visibility="public" isRoot="false" isAbstract="false" stereotype="folder" xmi.id="Datatypes" name="Datatypes" isSpecification="false" namespace="Logical_View" isLeaf="false">
+       <UML:Namespace.ownedElement>
+        <UML:DataType visibility="public" isRoot="false" isAbstract="false" xmi.id="uAB6D2aFmcZI0" name="char" isSpecification="false" namespace="Datatypes" isLeaf="false"/>
+        <UML:DataType visibility="public" isRoot="false" isAbstract="false" xmi.id="uU33qjL222VW7" name="int" isSpecification="false" namespace="Datatypes" isLeaf="false"/>
+        <UML:DataType visibility="public" isRoot="false" isAbstract="false" xmi.id="uZGTC9wGyMURL" name="float" isSpecification="false" namespace="Datatypes" isLeaf="false"/>
+        <UML:DataType visibility="public" isRoot="false" isAbstract="false" xmi.id="uiEccXgtis1eh" name="double" isSpecification="false" namespace="Datatypes" isLeaf="false"/>
+        <UML:DataType visibility="public" isRoot="false" isAbstract="false" xmi.id="u9yetodEzlWVL" name="bool" isSpecification="false" namespace="Datatypes" isLeaf="false"/>
+        <UML:DataType visibility="public" isRoot="false" isAbstract="false" xmi.id="u0fIfys3xIi5P" name="string" isSpecification="false" namespace="Datatypes" isLeaf="false"/>
+        <UML:DataType visibility="public" isRoot="false" isAbstract="false" xmi.id="uARwbF5UTdAaP" name="unsigned char" isSpecification="false" namespace="Datatypes" isLeaf="false"/>
+        <UML:DataType visibility="public" isRoot="false" isAbstract="false" xmi.id="ui3lVYxIMd4vv" name="signed char" isSpecification="false" namespace="Datatypes" isLeaf="false"/>
+        <UML:DataType visibility="public" isRoot="false" isAbstract="false" xmi.id="u6xk6IjP97Kfw" name="unsigned int" isSpecification="false" namespace="Datatypes" isLeaf="false"/>
+        <UML:DataType visibility="public" isRoot="false" isAbstract="false" xmi.id="uhUGpk0J97Gwp" name="signed int" isSpecification="false" namespace="Datatypes" isLeaf="false"/>
+        <UML:DataType visibility="public" isRoot="false" isAbstract="false" xmi.id="uHgBeZUBRLLPT" name="short int" isSpecification="false" namespace="Datatypes" isLeaf="false"/>
+        <UML:DataType visibility="public" isRoot="false" isAbstract="false" xmi.id="uHRvmoZt7QcIX" name="unsigned short int" isSpecification="false" namespace="Datatypes" isLeaf="false"/>
+        <UML:DataType visibility="public" isRoot="false" isAbstract="false" xmi.id="uDaRpHuINsrMu" name="signed short int" isSpecification="false" namespace="Datatypes" isLeaf="false"/>
+        <UML:DataType visibility="public" isRoot="false" isAbstract="false" xmi.id="urqkO4v0nqA8f" name="long int" isSpecification="false" namespace="Datatypes" isLeaf="false"/>
+        <UML:DataType visibility="public" isRoot="false" isAbstract="false" xmi.id="uaObXk50lQm8E" name="signed long int" isSpecification="false" namespace="Datatypes" isLeaf="false"/>
+        <UML:DataType visibility="public" isRoot="false" isAbstract="false" xmi.id="u62sQ0C0kFQGp" name="unsigned long int" isSpecification="false" namespace="Datatypes" isLeaf="false"/>
+        <UML:DataType visibility="public" isRoot="false" isAbstract="false" xmi.id="uLXwRJYsz3D0X" name="long double" isSpecification="false" namespace="Datatypes" isLeaf="false"/>
+        <UML:DataType visibility="public" isRoot="false" isAbstract="false" xmi.id="ucQILwU6T2G2H" name="wchar_t" isSpecification="false" namespace="Datatypes" isLeaf="false"/>
+        <UML:DataType visibility="public" isRoot="false" isAbstract="false" xmi.id="uFYpZk63OtHpb" name="array" isSpecification="false" namespace="Datatypes" isLeaf="false"/>
+        <UML:DataType visibility="public" isRoot="false" isAbstract="false" xmi.id="uEaFNPi3XCc8L" name="tuple" isSpecification="false" namespace="Datatypes" isLeaf="false"/>
+        <UML:DataType visibility="public" isRoot="false" isAbstract="false" xmi.id="ucBF9tyPylZNY" name="list" isSpecification="false" namespace="Datatypes" isLeaf="false"/>
+        <UML:DataType visibility="public" isRoot="false" isAbstract="false" xmi.id="uXZSVEkoApw0i" name="long" isSpecification="false" namespace="Datatypes" isLeaf="false"/>
+        <UML:DataType visibility="public" isRoot="false" isAbstract="false" xmi.id="uTlRtgQm04YrL" name="dict" isSpecification="false" namespace="Datatypes" isLeaf="false"/>
+        <UML:DataType visibility="public" isRoot="false" isAbstract="false" xmi.id="uxlPbbQDH7jKU" name="object" isSpecification="false" namespace="Datatypes" isLeaf="false"/>
+        <UML:DataType visibility="public" isRoot="false" isAbstract="false" xmi.id="uWW1EwJcEM4Kj" name="set" isSpecification="false" namespace="Datatypes" isLeaf="false"/>
+       </UML:Namespace.ownedElement>
+      </UML:Package>
+      <UML:Class visibility="public" isRoot="false" isAbstract="false" xmi.id="uGmPu5EmwkYt3" name="Usuari" isSpecification="false" namespace="Logical_View" isLeaf="false">
+       <UML:Classifier.feature>
+        <UML:Attribute visibility="public" xmi.id="uJzOQQAAzobxX" name="nom" isSpecification="false" type="uxlPbbQDH7jKU"/>
+        <UML:Attribute visibility="public" xmi.id="uxfv1huxwYF8V" name="cognoms" isSpecification="false" type="uxlPbbQDH7jKU"/>
+        <UML:Attribute visibility="public" xmi.id="uEfDwGIxcauEO" name="dni" isSpecification="false" type="uxlPbbQDH7jKU"/>
+        <UML:Operation visibility="public" isOverride="false" isRoot="false" isAbstract="false" stereotype="constructor" xmi.id="u9rj706xTxuSi" name="__init__" isQuery="false" isSpecification="false" isInline="false" isVirtual="false" isLeaf="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="u8tmbFRM2Ac0U" type="u0fIfys3xIi5P"/>
+          <UML:Parameter visibility="private" xmi.id="uIyVfrcPO8PWz" name="nom" isSpecification="false" value="&quot;No&quot;" type="u0fIfys3xIi5P"/>
+          <UML:Parameter visibility="private" xmi.id="u70TI7HwEasaC" name="cognoms" isSpecification="false" value="&quot;No&quot;" type="u0fIfys3xIi5P"/>
+          <UML:Parameter visibility="private" xmi.id="uaotfvQw2zkxG" name="dni" isSpecification="false" value="&quot;No&quot;" type="u0fIfys3xIi5P"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="public" isOverride="false" isRoot="false" isAbstract="false" xmi.id="uUCLWCBtH1IVE" name="imprimir_dades" isQuery="false" isSpecification="false" isInline="false" isVirtual="false" isLeaf="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="usTBR43bB9OcD" type="u0fIfys3xIi5P"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="public" isOverride="false" isRoot="false" isAbstract="false" xmi.id="uN1Hu8QZc8F6s" name="introduir_dades" isQuery="false" isSpecification="false" isInline="false" isVirtual="false" isLeaf="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uGO3uBYWJvGfe" type="u0fIfys3xIi5P"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+       </UML:Classifier.feature>
+      </UML:Class>
+      <UML:Class visibility="public" isRoot="false" isAbstract="false" xmi.id="uNfjQdK42JXVH" name="Llibre" isSpecification="false" namespace="Logical_View" isLeaf="false">
+       <UML:Classifier.feature>
+        <UML:Attribute visibility="public" xmi.id="u4Nru016XhWed" name="titol" isSpecification="false" type="uxlPbbQDH7jKU"/>
+        <UML:Attribute visibility="public" xmi.id="uE1tSBWwMZDHl" name="autor" isSpecification="false" type="uxlPbbQDH7jKU"/>
+        <UML:Attribute visibility="public" xmi.id="ujbb2Frdz9d0g" name="dni_prestec" isSpecification="false" type="uxlPbbQDH7jKU"/>
+        <UML:Operation visibility="public" isOverride="false" isRoot="false" isAbstract="false" stereotype="constructor" xmi.id="uUGNCUoY2GFCy" name="__init__" isQuery="false" isSpecification="false" isInline="false" isVirtual="false" isLeaf="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="ugLuo4RTFLKOQ" type="u0fIfys3xIi5P"/>
+          <UML:Parameter visibility="private" xmi.id="uczVbIlpppqP0" name="titol" isSpecification="false" value="&quot;No&quot;" type="u0fIfys3xIi5P"/>
+          <UML:Parameter visibility="private" xmi.id="uZbqm1bD8JLjL" name="autor" isSpecification="false" value="&quot;No&quot;" type="u0fIfys3xIi5P"/>
+          <UML:Parameter visibility="private" xmi.id="uhiKUStNzXUVq" name="dni_prestec" isSpecification="false" value="&quot;No&quot;" type="u0fIfys3xIi5P"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="public" isOverride="false" isRoot="false" isAbstract="false" xmi.id="uzCs0mj2eZlF2" name="imprimir_dades" isQuery="false" isSpecification="false" isInline="false" isVirtual="false" isLeaf="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uUE7rQtd8c9YY" type="u0fIfys3xIi5P"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="public" isOverride="false" isRoot="false" isAbstract="false" xmi.id="uo8hfuqZgCSGp" name="introduir_dades" isQuery="false" isSpecification="false" isInline="false" isVirtual="false" isLeaf="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="u1glIpExpddt1" type="u0fIfys3xIi5P"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+       </UML:Classifier.feature>
+      </UML:Class>
+      <UML:Class visibility="public" isRoot="false" isAbstract="false" xmi.id="ukLmsWd1ZKtqa" name="Biblioteca" isSpecification="false" namespace="Logical_View" isLeaf="false">
+       <UML:Classifier.feature>
+        <UML:Attribute visibility="public" initialValue="sqlite3.connect" xmi.id="uRepsMlC5V64V" name="conn" isSpecification="false" type="uZGTC9wGyMURL"/>
+        <UML:Operation visibility="public" isOverride="false" isRoot="false" isAbstract="false" stereotype="constructor" xmi.id="ueXIvpEor7htv" name="__init__" isQuery="false" isSpecification="false" isInline="false" isVirtual="false" isLeaf="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uMLOY1mpDoFmm" type="u0fIfys3xIi5P"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="public" isOverride="false" isRoot="false" isAbstract="false" xmi.id="uXCrnS4poGZd5" name="crear_taules" isQuery="false" isSpecification="false" isInline="false" isVirtual="false" isLeaf="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uYqPR3tO7Bi8P" type="u0fIfys3xIi5P"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="public" isOverride="false" isRoot="false" isAbstract="false" xmi.id="uxlRp6YolmWxS" name="afegir_usuari" isQuery="false" isSpecification="false" isInline="false" isVirtual="false" isLeaf="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="ugTY3SqSecG7s" type="u0fIfys3xIi5P"/>
+          <UML:Parameter visibility="private" xmi.id="ufwzUlQfPoxND" name="usuari" isSpecification="false" value="" type="u0fIfys3xIi5P"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="public" isOverride="false" isRoot="false" isAbstract="false" xmi.id="u3MhocTeq3rLZ" name="afegir_llibre" isQuery="false" isSpecification="false" isInline="false" isVirtual="false" isLeaf="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uDewGBmEJKBr7" type="u0fIfys3xIi5P"/>
+          <UML:Parameter visibility="private" xmi.id="uKnuHJRStTebI" name="llibre" isSpecification="false" value="" type="u0fIfys3xIi5P"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="public" isOverride="false" isRoot="false" isAbstract="false" xmi.id="u7iD1EjpqeBrz" name="imprimir_usuaris" isQuery="false" isSpecification="false" isInline="false" isVirtual="false" isLeaf="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uiOmFhqU0GnPE" type="u0fIfys3xIi5P"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="public" isOverride="false" isRoot="false" isAbstract="false" xmi.id="ux1jPtIhFrVDZ" name="imprimir_llibres" isQuery="false" isSpecification="false" isInline="false" isVirtual="false" isLeaf="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uLRIfeRjvx1my" type="u0fIfys3xIi5P"/>
+          <UML:Parameter visibility="private" xmi.id="uBbh4iElZn0dh" name="filtre" isSpecification="false" value="&quot;tots&quot;" type="u0fIfys3xIi5P"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="public" isOverride="false" isRoot="false" isAbstract="false" xmi.id="uGPclNSmA5Nrd" name="eliminar_usuari" isQuery="false" isSpecification="false" isInline="false" isVirtual="false" isLeaf="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uARJq4Ot5MaD1" type="u0fIfys3xIi5P"/>
+          <UML:Parameter visibility="private" xmi.id="uBYTQvSWSgFVJ" name="dni" isSpecification="false" value="" type="u0fIfys3xIi5P"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="public" isOverride="false" isRoot="false" isAbstract="false" xmi.id="uxheVP6gbaYsi" name="eliminar_llibre" isQuery="false" isSpecification="false" isInline="false" isVirtual="false" isLeaf="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uJ31hlgqG3sxm" type="u0fIfys3xIi5P"/>
+          <UML:Parameter visibility="private" xmi.id="uXEPvGUlup5pb" name="titol" isSpecification="false" value="" type="u0fIfys3xIi5P"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="public" isOverride="false" isRoot="false" isAbstract="false" xmi.id="ui633nsVpiE4f" name="prestar_llibre" isQuery="false" isSpecification="false" isInline="false" isVirtual="false" isLeaf="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="u9Im5CrvGEz4Q" type="u0fIfys3xIi5P"/>
+          <UML:Parameter visibility="private" xmi.id="uvicvgqPxE8HY" name="titol" isSpecification="false" value="" type="u0fIfys3xIi5P"/>
+          <UML:Parameter visibility="private" xmi.id="ur8VXbi8JpFpL" name="dni" isSpecification="false" value="" type="u0fIfys3xIi5P"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="public" isOverride="false" isRoot="false" isAbstract="false" xmi.id="uduWlclZXlm21" name="tornar_llibre" isQuery="false" isSpecification="false" isInline="false" isVirtual="false" isLeaf="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="ur2Z459gDBZ9D" type="u0fIfys3xIi5P"/>
+          <UML:Parameter visibility="private" xmi.id="uMwwHzMRNl1Wh" name="titol" isSpecification="false" value="" type="u0fIfys3xIi5P"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+       </UML:Classifier.feature>
+      </UML:Class>
+      <UML:Association visibility="public" xmi.id="u849AM8CReIFu" name="" isSpecification="false" namespace="Logical_View">
+       <UML:Association.connection>
+        <UML:AssociationEnd visibility="public" isNavigable="false" aggregation="none" xmi.id="u1kFlCDhNdsnX" name="" isSpecification="false" changeability="changeable" type="uNfjQdK42JXVH"/>
+        <UML:AssociationEnd visibility="public" isNavigable="true" aggregation="none" xmi.id="unEHsM7lz3pjh" name="" isSpecification="false" changeability="changeable" type="uGmPu5EmwkYt3"/>
+       </UML:Association.connection>
+      </UML:Association>
+      <UML:Dependency visibility="public" client="ukLmsWd1ZKtqa" supplier="uNfjQdK42JXVH" xmi.id="u70vdAvuLk9L5" name="" isSpecification="false" namespace="Logical_View"/>
+      <UML:Dependency visibility="public" client="ukLmsWd1ZKtqa" supplier="uGmPu5EmwkYt3" xmi.id="ulfNpOaCXRBlY" name="" isSpecification="false" namespace="Logical_View"/>
+     </UML:Namespace.ownedElement>
+     <XMI.extension xmi.extender="umbrello">
+      <diagrams resolution="96">
+       <diagram localid="-1" snapy="25" linewidth="0" usefillcolor="1" showattribassocs="1" font="Ubuntu,10,-1,5,50,0,0,0,0,0" xmi.id="uhtYPqaVAg24h" linecolor="#ff0000" textcolor="#000000" griddotcolor="#d3d3d3" showatts="1" snapx="25" canvasheight="319" showpubliconly="0" zoom="100" name="diagrama de classes" snapcsgrid="0" isopen="1" snapgrid="0" showpackage="1" fillcolor="#ffff00" showscope="1" showopsig="1" backgroundcolor="#ffffff" showstereotype="1" canvaswidth="934" showgrid="0" documentation="" showattsig="1" showops="1" type="1">
+        <widgets>
+         <classwidget localid="u7u3VjLIr9QO1" linewidth="0" usefillcolor="1" font="Ubuntu,10,-1,5,50,0,0,0,0,0" showattributes="1" xmi.id="ukLmsWd1ZKtqa" usesdiagramusefillcolor="0" textcolor="#000000" linecolor="#ff0000" usesdiagramfillcolor="0" x="-1049" showoperations="1" autoresize="1" showpubliconly="0" height="180" showpackage="1" fillcolor="#ffff00" showattsigs="601" showopsigs="601" showscope="1" y="-201" showstereotype="1" isinstance="0" width="288"/>
+         <classwidget localid="uCJcbrP1t5pw6" linewidth="0" usefillcolor="1" font="Ubuntu,10,-1,5,50,0,0,0,0,0" showattributes="1" xmi.id="uNfjQdK42JXVH" usesdiagramusefillcolor="0" textcolor="#000000" linecolor="#ff0000" usesdiagramfillcolor="0" x="-709" showoperations="1" autoresize="1" showpubliconly="0" height="105" showpackage="1" fillcolor="#ffff00" showattsigs="601" showopsigs="601" showscope="1" y="-266" showstereotype="1" isinstance="0" width="594"/>
+         <classwidget localid="u3HlBBA6URPzc" linewidth="0" usefillcolor="1" font="Ubuntu,10,-1,5,50,0,0,0,0,0" showattributes="1" xmi.id="uGmPu5EmwkYt3" usesdiagramusefillcolor="0" textcolor="#000000" linecolor="#ff0000" usesdiagramfillcolor="0" x="-709" showoperations="1" autoresize="1" showpubliconly="0" height="105" showpackage="1" fillcolor="#ffff00" showattsigs="601" showopsigs="601" showscope="1" y="-52" showstereotype="1" isinstance="0" width="566"/>
+        </widgets>
+        <messages/>
+        <associations>
+         <assocwidget totalcounta="2" localid="uqDJc0Op7k1y7" widgetbid="uNfjQdK42JXVH" linewidth="0" totalcountb="2" usefillcolor="1" widgetaid="ukLmsWd1ZKtqa" font="Ubuntu,10,-1,5,50,0,0,0,0,0" xmi.id="u70vdAvuLk9L5" usesdiagramusefillcolor="1" textcolor="none" linecolor="#ff0000" indexa="1" usesdiagramfillcolor="1" seqnum="" autoresize="1" indexb="1" fillcolor="none" type="502">
+          <linepath layout="Direct">
+           <startpoint startx="-761" starty="-161"/>
+           <endpoint endx="-709" endy="-161"/>
+          </linepath>
+         </assocwidget>
+         <assocwidget totalcounta="2" localid="uKrZXDk8ZaUax" widgetbid="uGmPu5EmwkYt3" linewidth="0" totalcountb="2" usefillcolor="1" widgetaid="uNfjQdK42JXVH" font="Ubuntu,10,-1,5,50,0,0,0,0,0" xmi.id="u849AM8CReIFu" usesdiagramusefillcolor="1" textcolor="none" linecolor="#ff0000" indexa="1" usesdiagramfillcolor="1" seqnum="" autoresize="1" indexb="1" fillcolor="none" type="512">
+          <linepath layout="Direct">
+           <startpoint startx="-426" starty="-161"/>
+           <endpoint endx="-426" endy="-52"/>
+          </linepath>
+         </assocwidget>
+         <assocwidget totalcounta="2" localid="u2yB31rHpODCH" widgetbid="uGmPu5EmwkYt3" linewidth="0" totalcountb="2" usefillcolor="1" widgetaid="ukLmsWd1ZKtqa" font="Ubuntu,10,-1,5,50,0,0,0,0,0" xmi.id="ulfNpOaCXRBlY" usesdiagramusefillcolor="1" textcolor="none" linecolor="#ff0000" indexa="1" usesdiagramfillcolor="1" seqnum="" autoresize="1" indexb="1" fillcolor="none" type="502">
+          <linepath layout="Direct">
+           <startpoint startx="-761" starty="-21"/>
+           <endpoint endx="-709" endy="-21"/>
+          </linepath>
+         </assocwidget>
+        </associations>
+       </diagram>
+      </diagrams>
+     </XMI.extension>
+    </UML:Model>
+    <UML:Model visibility="public" isRoot="false" isAbstract="false" xmi.id="Use_Case_View" name="Use Case View" isSpecification="false" namespace="m1" isLeaf="false">
+     <UML:Namespace.ownedElement/>
+    </UML:Model>
+    <UML:Model visibility="public" isRoot="false" isAbstract="false" xmi.id="Component_View" name="Component View" isSpecification="false" namespace="m1" isLeaf="false">
+     <UML:Namespace.ownedElement/>
+    </UML:Model>
+    <UML:Model visibility="public" isRoot="false" isAbstract="false" xmi.id="Deployment_View" name="Deployment View" isSpecification="false" namespace="m1" isLeaf="false">
+     <UML:Namespace.ownedElement/>
+    </UML:Model>
+    <UML:Model visibility="public" isRoot="false" isAbstract="false" xmi.id="Entity_Relationship_Model" name="Model Entitat-Relació" isSpecification="false" namespace="m1" isLeaf="false">
+     <UML:Namespace.ownedElement/>
+    </UML:Model>
+   </UML:Namespace.ownedElement>
+  </UML:Model>
+ </XMI.content>
+ <XMI.extensions xmi.extender="umbrello">
+  <docsettings documentation="" uniqueid="up4dNEl9zB2bN" viewid="uhtYPqaVAg24h"/>
+  <listview>
+   <listitem id="Views" open="1" type="800">
+    <listitem id="Entity_Relationship_Model" open="1" type="836"/>
+    <listitem id="Use_Case_View" open="1" type="802"/>
+    <listitem id="Component_View" open="1" type="821"/>
+    <listitem id="Deployment_View" open="1" type="827"/>
+    <listitem id="Logical_View" open="1" type="801">
+     <listitem id="ukLmsWd1ZKtqa" open="1" type="813">
+      <listitem id="ueXIvpEor7htv" open="0" type="815"/>
+      <listitem id="u3MhocTeq3rLZ" open="0" type="815"/>
+      <listitem id="uxlRp6YolmWxS" open="0" type="815"/>
+      <listitem id="uRepsMlC5V64V" open="0" type="814"/>
+      <listitem id="uXCrnS4poGZd5" open="0" type="815"/>
+      <listitem id="uxheVP6gbaYsi" open="0" type="815"/>
+      <listitem id="uGPclNSmA5Nrd" open="0" type="815"/>
+      <listitem id="ux1jPtIhFrVDZ" open="0" type="815"/>
+      <listitem id="u7iD1EjpqeBrz" open="0" type="815"/>
+      <listitem id="ui633nsVpiE4f" open="0" type="815"/>
+      <listitem id="uduWlclZXlm21" open="0" type="815"/>
+     </listitem>
+     <listitem label="diagrama de classes" id="uhtYPqaVAg24h" open="0" type="807"/>
+     <listitem id="uNfjQdK42JXVH" open="1" type="813">
+      <listitem id="uUGNCUoY2GFCy" open="0" type="815"/>
+      <listitem id="uE1tSBWwMZDHl" open="0" type="814"/>
+      <listitem id="ujbb2Frdz9d0g" open="0" type="814"/>
+      <listitem id="uzCs0mj2eZlF2" open="0" type="815"/>
+      <listitem id="uo8hfuqZgCSGp" open="0" type="815"/>
+      <listitem id="u4Nru016XhWed" open="0" type="814"/>
+     </listitem>
+     <listitem id="Datatypes" open="0" type="830">
+      <listitem id="uFYpZk63OtHpb" open="1" type="829"/>
+      <listitem id="u9yetodEzlWVL" open="0" type="829"/>
+      <listitem id="uAB6D2aFmcZI0" open="0" type="829"/>
+      <listitem id="uTlRtgQm04YrL" open="1" type="829"/>
+      <listitem id="uiEccXgtis1eh" open="0" type="829"/>
+      <listitem id="uZGTC9wGyMURL" open="0" type="829"/>
+      <listitem id="uU33qjL222VW7" open="0" type="829"/>
+      <listitem id="ucBF9tyPylZNY" open="1" type="829"/>
+      <listitem id="uXZSVEkoApw0i" open="1" type="829"/>
+      <listitem id="uLXwRJYsz3D0X" open="0" type="829"/>
+      <listitem id="urqkO4v0nqA8f" open="0" type="829"/>
+      <listitem id="uxlPbbQDH7jKU" open="1" type="829"/>
+      <listitem id="uWW1EwJcEM4Kj" open="1" type="829"/>
+      <listitem id="uHgBeZUBRLLPT" open="0" type="829"/>
+      <listitem id="ui3lVYxIMd4vv" open="0" type="829"/>
+      <listitem id="uhUGpk0J97Gwp" open="0" type="829"/>
+      <listitem id="uaObXk50lQm8E" open="0" type="829"/>
+      <listitem id="uDaRpHuINsrMu" open="0" type="829"/>
+      <listitem id="u0fIfys3xIi5P" open="0" type="829"/>
+      <listitem id="uEaFNPi3XCc8L" open="1" type="829"/>
+      <listitem id="uARwbF5UTdAaP" open="0" type="829"/>
+      <listitem id="u6xk6IjP97Kfw" open="0" type="829"/>
+      <listitem id="u62sQ0C0kFQGp" open="0" type="829"/>
+      <listitem id="uHRvmoZt7QcIX" open="0" type="829"/>
+      <listitem id="ucQILwU6T2G2H" open="0" type="829"/>
+     </listitem>
+     <listitem id="uGmPu5EmwkYt3" open="0" type="813">
+      <listitem id="u9rj706xTxuSi" open="0" type="815"/>
+      <listitem id="uxfv1huxwYF8V" open="0" type="814"/>
+      <listitem id="uEfDwGIxcauEO" open="0" type="814"/>
+      <listitem id="uUCLWCBtH1IVE" open="0" type="815"/>
+      <listitem id="uN1Hu8QZc8F6s" open="0" type="815"/>
+      <listitem id="uJzOQQAAzobxX" open="0" type="814"/>
+     </listitem>
+    </listitem>
+   </listitem>
+  </listview>
+  <codegeneration>
+   <codegenerator language="Python">
+    <sourcecode id="u9rj706xTxuSi" value="self.nom=nom&#xa;self.cognoms=cognoms&#xa;self.dni=dni&#xa;"/>
+    <sourcecode id="uUCLWCBtH1IVE" value="print(f&quot;{self.nom} {self.cognoms} : {self.dni}&quot;)&#xa;"/>
+    <sourcecode id="uN1Hu8QZc8F6s" value="try:&#xa;  self.nom=input(&quot;Introdueix el nom: &quot;).strip()&#xa;  self.cognoms=input(&quot;Introdueix els cognoms: &quot;).strip()&#xa;  self.dni=input(&quot;Introdueix el DNI: &quot;).strip()&#xa;  if not self.nom or not self.cognoms or not self.dni:&#xa;    raise ValueError(&quot;Cap camp pot estar buit!&quot;)&#xa;&#xa;&#xa;except Exception as e:&#xa;  print(f&quot;Error a la introducció de dades: {e}&quot;)&#xa;  self.introduir_dades()&#xa;&#xa;"/>
+    <sourcecode id="uUGNCUoY2GFCy" value="self.titol=titol&#xa;self.autor=autor&#xa;self.dni_prestec=dni_prestec&#xa;"/>
+    <sourcecode id="uzCs0mj2eZlF2" value="print(f&quot;{self.titol} escrit per {self.autor} : {self.dni_prestec}&quot;)&#xa;"/>
+    <sourcecode id="uo8hfuqZgCSGp" value="try:&#xa;  self.titol=input(&quot;Introdueix el títol: &quot;).strip()&#xa;  self.autor=input(&quot;Introdueix l'autor: &quot;).strip()&#xa;  self.dni_prestec=&quot;0&quot;&#xa;  if not self.titol or not self.autor:&#xa;    raise ValueError(&quot;Cap camp pot estar buit!&quot;)&#xa;&#xa;&#xa;except Exception as e:&#xa;  print(f&quot;Error a la introducció de dades: {e}&quot;)&#xa;  self.introduir_dades()&#xa;&#xa;"/>
+    <sourcecode id="ueXIvpEor7htv" value="self.conn=sqlite3.connect(DB)&#xa;self.crear_taules()&#xa;"/>
+    <sourcecode id="uXCrnS4poGZd5" value="cursor=self.conn.cursor()&#xa;cursor.execute('''CREATE TABLE IF NOT EXISTS usuaris (;id INTEGER PRIMARY KEY AUTOINCREMENT,nom TEXT NOT NULL,cognoms TEXT NOT NULL,dni TEXT UNIQUE NOT NULL)''')cursor.execute('''CREATE TABLE IF NOT EXISTS llibres (;id INTEGER PRIMARY KEY AUTOINCREMENT,titol TEXT UNIQUE NOT NULL,autor TEXT NOT NULL,dni_prestec TEXT DEFAULT&quot;0&quot;)''')self.conn.commit()&#xa;"/>
+    <sourcecode id="uxlRp6YolmWxS" value="try:&#xa;  cursor=self.conn.cursor()&#xa;  cursor.execute(&quot;INSERT INTO usuaris (nom, cognoms, dni) VALUES (?, ?, ?)&quot;,&#xa;  (usuari.nom,usuari.cognoms,usuari.dni))self.conn.commit()&#xa;&#xa;except sqlite3.IntegrityError:&#xa;  print(&quot;Error: El DNI ja existeix.&quot;)&#xa;&#xa;except Exception as e:&#xa;  print(f&quot;Error afegint usuari: {e}&quot;)&#xa;&#xa;"/>
+    <sourcecode id="u3MhocTeq3rLZ" value="try:&#xa;  cursor=self.conn.cursor()&#xa;  cursor.execute(&quot;INSERT INTO llibres (titol, autor, dni_prestec) VALUES (?, ?, ?)&quot;,&#xa;  (llibre.titol,llibre.autor,llibre.dni_prestec))self.conn.commit()&#xa;&#xa;except sqlite3.IntegrityError:&#xa;  print(&quot;Error: El Títol ja existeix.&quot;)&#xa;&#xa;except Exception as e:&#xa;  print(f&quot;Error afegint llibre: {e}&quot;)&#xa;&#xa;"/>
+    <sourcecode id="u7iD1EjpqeBrz" value="cursor=self.conn.cursor()&#xa;cursor.execute(&quot;SELECT nom, cognoms, dni FROM usuaris&quot;)&#xa;for usu in cursor.fetchall():&#xa;  print(f&quot;{usu[0]} {usu[1]} : {usu[2]}&quot;)&#xa;&#xa;"/>
+    <sourcecode id="ux1jPtIhFrVDZ" value="cursor=self.conn.cursor()&#xa;if filtre==&quot;prestec&quot;:&#xa;  cursor.execute(&quot;SELECT titol, autor, dni_prestec FROM llibres WHERE dni_prestec='0'&quot;)&#xa;&#xa;elif filtre==&quot;tornar&quot;:&#xa;  cursor.execute(&quot;SELECT titol, autor, dni_prestec FROM llibres WHERE dni_prestec!='0'&quot;)&#xa;&#xa;else:&#xa;  cursor.execute(&quot;SELECT titol, autor, dni_prestec FROM llibres&quot;)&#xa;&#xa;for llibre in cursor.fetchall():&#xa;  print(f&quot;{llibre[0]} escrit per {llibre[1]} : {llibre[2]}&quot;)&#xa;&#xa;"/>
+    <sourcecode id="uGPclNSmA5Nrd" value="cursor=self.conn.cursor()&#xa;cursor.execute(&quot;DELETE FROM usuaris WHERE dni=?&quot;,(dni,))&#xa;self.conn.commit()&#xa;"/>
+    <sourcecode id="uxheVP6gbaYsi" value="cursor=self.conn.cursor()&#xa;cursor.execute(&quot;DELETE FROM llibres WHERE titol=?&quot;,(titol,))&#xa;self.conn.commit()&#xa;"/>
+    <sourcecode id="ui633nsVpiE4f" value="cursor=self.conn.cursor()&#xa;cursor.execute(&quot;UPDATE llibres SET dni_prestec=? WHERE titol=? AND dni_prestec='0'&quot;,(dni,titol))&#xa;self.conn.commit()&#xa;"/>
+    <sourcecode id="uduWlclZXlm21" value="cursor=self.conn.cursor()&#xa;cursor.execute(&quot;UPDATE llibres SET dni_prestec='0' WHERE titol=?&quot;,(titol,))&#xa;self.conn.commit()&#xa;"/>
+   </codegenerator>
+  </codegeneration>
+ </XMI.extensions>
+</XMI>
