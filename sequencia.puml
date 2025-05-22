@@ -1,0 +1,21 @@
+@startuml
+actor Usuari
+
+participant "Sistema" as S
+participant "Base de Dades" as DB
+
+Usuari -> S : Introduir DNI i Contrasenya
+S -> DB : SELECT * FROM usuaris WHERE dni = ?
+DB --> S : Retorna dades usuari
+
+alt Contrasenya correcta
+    S -> Usuari : Accés permès
+    alt És administrador
+        S -> Usuari : Mostra menú d'admin
+    else És lector
+        S -> Usuari : Mostra menú de lector
+    end
+else Contrasenya incorrecta
+    S -> Usuari : Accés denegat
+end
+@enduml

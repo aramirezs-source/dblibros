@@ -1,0 +1,22 @@
+@startuml
+left to right direction
+
+actor "Usuari Registrat" as User
+actor "Administrador" as Admin
+
+rectangle Biblioteca {
+  User --> (Iniciar Sessió)
+  Admin --> (Iniciar Sessió)
+
+  User --> (Consultar llibres)
+  User --> (Prestar llibre)
+  User --> (Tornar llibre)
+
+  Admin --> (Afegir usuari)
+  Admin --> (Eliminar usuari)
+  Admin --> (Afegir llibre)
+  Admin --> (Eliminar llibre)
+  Admin --> (Llistar usuaris)
+}
+
+@enduml
